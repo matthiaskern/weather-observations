@@ -8,7 +8,8 @@
     "build:watch": "bsb -make-world -w",
     "bundle": "webpack",
     "bundle:watch": "webpack -w",
-    "server": "nodemon lib/js/src/server/main.js"
+    "dev": "nodemon lib/js/src/server/main.js",
+    "start": "node lib/js/src/server/main.js"
   },
   "dependencies": {
     "@ahrefs/bs-atdgen-codec-runtime": "latest",
