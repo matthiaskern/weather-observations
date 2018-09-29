@@ -1,0 +1,18 @@
+(* the date will be a float in the json and a Js.Date.t in ocaml *)
+type date = float wrap <ocaml module="Js.Date" wrap="Js.Date.fromFloat" unwrap="Js.Date.valueOf">
+
+type coordinates = (float * float)
+
+type location = {
+  name: string;
+  coordinates: coordinates;
+}
+
+type observation = {
+  id: string;
+  date: date;
+  temperature: float;
+  location: location;
+}
+
+type observations = observation list

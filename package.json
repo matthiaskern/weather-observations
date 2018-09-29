@@ -1,0 +1,29 @@
+{
+  "name": "observations",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "build:watch": "bsb -make-world -w",
+    "bundle": "webpack",
+    "bundle:watch": "webpack -w",
+    "server": "nodemon lib/js/src/server/main.js"
+  },
+  "dependencies": {
+    "@ahrefs/bs-atdgen-codec-runtime": "latest",
+    "bs-express": "^0.9.0",
+    "bs-fetch": "^0.3.0",
+    "express": "^4.16.3",
+    "nanoid": "^1.2.5",
+    "react": "latest",
+    "react-dom": "latest",
+    "reason-react": "latest"
+  },
+  "devDependencies": {
+    "bs-platform": "latest",
+    "nodemon": "^1.18.4",
+    "webpack": "latest",
+    "webpack-cli": "latest"
+  }
+}

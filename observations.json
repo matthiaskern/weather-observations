@@ -1,0 +1,86 @@
+[
+  {
+    "location": {
+      "coordinates": [
+        35.6584421,
+        139.7328635
+      ],
+      "name": "Tokio"
+    },
+    "temperature": 20,
+    "date": 1538245573034,
+    "id": "PTxChGRWvadvfdkB5UCwO0"
+  },
+  {
+    "location": {
+      "coordinates": [
+        60.169753,
+        24.949083
+      ],
+      "name": "Helsinki"
+    },
+    "temperature": 4,
+    "date": 1538245573034,
+    "id": "DUSzwuZtVJsELyTyK3Zqcr"
+  },
+  {
+    "location": {
+      "coordinates": [
+        40.7406905,
+        -73.9938438
+      ],
+      "name": "New York"
+    },
+    "temperature": 10,
+    "date": 1538245573034,
+    "id": "ctFb2Zmbdm40rZDKWM4vTo"
+  },
+  {
+    "location": {
+      "coordinates": [
+        52.3650691,
+        4.9040238
+      ],
+      "name": "Amsterdam"
+    },
+    "temperature": 12,
+    "date": 1538245573034,
+    "id": "2qjwAhISwGc2Fbe0JsH2Yj"
+  },
+  {
+    "location": {
+      "coordinates": [
+        25.092535,
+        55.1562243
+      ],
+      "name": "Dubai"
+    },
+    "temperature": 35,
+    "date": 1538245573034,
+    "id": "MGBeBPJmkXpI8POVYIIESJ"
+  },
+  {
+    "location": {
+      "coordinates": [
+        35.6584421,
+        139.7328635
+      ],
+      "name": "Tokio"
+    },
+    "temperature": 12.2,
+    "date": 1538245585169,
+    "id": "hWhCAWwK0BcY1JGh2trooi"
+  },
+  {
+    "location": {
+      "coordinates": [
+        35.6584421,
+        139.7328635
+      ],
+      "name": "Tokio"
+    },
+    "temperature": 3,
+    "date": 1538245591932,
+    "id": "0aStj2NZlLjMEcCAj8Jw4F"
+  }
+]
