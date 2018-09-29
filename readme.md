@@ -5,9 +5,28 @@
 
 ## Further plans
 - Websocket connection that emits new observations when they're added
+- More error safety when reading/writing data
+- "Real" database adapter
+- Client and server side validation of data
 - Show the observations on map
 - Show the latest observation for each city
 - Show the min/max during 24 hours for each city
+
+## Installation
+`yarn or npm install`
+
+## Start
+`npm run build`
+`npm run bundle`
+`npm start`
+
+## Development
+`npm run build:watch`
+`npm run bundle:watch`
+`npm run dev`
+
+## Deployment
+`now`
 
 ## Instructions
 ```
